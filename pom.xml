@@ -5,7 +5,7 @@
 	<!-- In CH2.0 Group ID must to BG ID -->
 	<groupId>4e9a80b0-5445-40a6-8c61-2a46a78e70ea</groupId>
 	<artifactId>mule-cicd-actions-example</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>mule-application</packaging>
 
 	<name>mule-cicd-actions-example</name>
@@ -42,7 +42,7 @@
 							<muleVersion>4.4.0</muleVersion>
 							<!-- reads credentials from settings.xml -->
 							<server>cloudhub-deploy</server>							
-							<applicationName>Hello-ch01viewer06</applicationName>
+							<applicationName>hello-ch01viewer06</applicationName>
 							<replicas>1</replicas>
 							<vCores>0.1</vCores>
 							<!-- 4 mins deployment timeout -->
